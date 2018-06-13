@@ -1,0 +1,180 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "robot finds kitten",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "MoveIntent",
+                    "slots": [
+                        {
+                            "name": "stepsCount",
+                            "type": "AMAZON.NUMBER"
+                        },
+                        {
+                            "name": "direction",
+                            "type": "DIRECTION"
+                        }
+                    ],
+                    "samples": [
+                        "search {stepsCount} steps {direction}",
+                        "search {stepsCount} {direction}",
+                        "search {stepsCount} steps",
+                        "search {stepsCount} more",
+                        "search {direction}",
+                        "walk {stepsCount} steps {direction}",
+                        "walk {stepsCount} {direction}",
+                        "walk {stepsCount} steps",
+                        "walk {stepsCount} more",
+                        "walk {direction}",
+                        "go {stepsCount} steps {direction}",
+                        "go {stepsCount} {direction}",
+                        "go {stepsCount} steps",
+                        "go {stepsCount} more",
+                        "go {direction}",
+                        "move {stepsCount} steps {direction}",
+                        "move {stepsCount} {direction}",
+                        "move {stepsCount} steps",
+                        "move {stepsCount} more",
+                        "move {direction}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StartOverIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.YesIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NoIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.MoreIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateSettingsIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NextIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PageDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.PreviousIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollRightIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollDownIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollLeftIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.ScrollUpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "StartGameIntent",
+                    "slots": [],
+                    "samples": [
+                        "for a game",
+                        "and let's play",
+                        "and start game",
+                        "and start a game",
+                        "play a game",
+                        "start a game",
+                        "let's find kitten",
+                        "start game",
+                        "let's play"
+                    ]
+                },
+                {
+                    "name": "StoryIntent",
+                    "slots": [],
+                    "samples": [
+                        "and tell me the story",
+                        "and tell me it's history",
+                        "tell me history",
+                        "tell me story",
+                        "what is the legend behind robot find kitten",
+                        "what is the story behind",
+                        "what is the history of robot finds kitten",
+                        "tell me the story"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "DIRECTION",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "right",
+                                "synonyms": [
+                                    "forward"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "left",
+                                "synonyms": [
+                                    "back"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "down",
+                                "synonyms": [
+                                    "bottom"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "up",
+                                "synonyms": [
+                                    "top"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
